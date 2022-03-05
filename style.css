@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-logo{
+  width: 50%;
+}
+.navlist{
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  color:  hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+.hero h1 {
+  position: absolute;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  right: 40%;
+  top: 25%;
+  color: hsl(0, 0%, 100%);
+  z-index: 10;
+}
+.arrow2{
+  position: absolute;
+  top: 0;
+}
+.arrow img {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+}
+.main {
+  display: flex;
+}
+.transform {
+  flex: 5;
+  background-color: white;
+  display: grid;
+  place-content: center;
+  padding: 0 50px;
+}
+.transform h2 {
+  width: 200px;
+  margin-bottom: 10px;
+  color: hsl(212, 27%, 19%);
+}
+.transform p {
+  width: 370px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  color: hsl(210, 4%, 67%);
+}
+a {
+  color: hsl(213, 9%, 39%);
+}
+.main2 {
+  display: flex;
+  justify-content: space-between;
+}
+.standoutimg{
+  width: 50%;
+}
+.standout {
+   background-color: red;
+}
+.main3 {
+  display: flex;
+  width: 100%;
+}
+.picstext {
+  position: absolute;
+  width: 25%;
+  z-index: 10;
+}
+.graphicimg{
+  position: relative;
+  width: 100%;
+}
+.photoimg{
+  position: relative;
+  width: 100%;
+}
+.picstext2{
+  position: absolute;
+  width: 25%;
+  z-index: 10;
+}
+.testimonials {
+  color: hsl(210, 4%, 67%);
+  width: 100%;
+  text-align: center;
+}
+.profileheading {
+  color: hsl(210, 4%, 67%);
+  padding: 70px 0;
+}
+.profile{
+  display: flex;
+}
+.profile p{
+  padding: 30px;
+}
+.profile img {
+  border-radius: 100px;
+}
+.gallery {
+  display: flex;
+  width: 100%;
+  background-color: yellow;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+.gallery-pic{
+  width: 25%;
+
+}
+.footer {
+  background-color:  hsl(168, 34%, 41%);
+  color: hsl(212, 27%, 19%);
+  width: 100%;
+  
+}
+.sunnylogo {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.info {
+  display: flex;
+}
+.socialslogo {
+  display: flex;
+}
+    
